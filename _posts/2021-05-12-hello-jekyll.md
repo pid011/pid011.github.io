@@ -2,7 +2,6 @@
 title: "지킬 블로그 테스트"
 date: 2021-05-12
 categories: temp
-comments: true
 ---
 
 포스팅 테스트 중
