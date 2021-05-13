@@ -1,9 +1,8 @@
 ---
 title: "지킬 블로그 테스트"
-date: 2021-05-12
+date: 2021-05-12T12:34:00
 categories: temp
 toc: true
-author_profile: true
 ---
 
 포스팅 테스트 중
