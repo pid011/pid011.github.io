@@ -4,11 +4,15 @@
 
 @charset "utf-8";
 
+@import url("../fonts/CascadiaCode.woff2");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;700&family=Noto+Serif+KR:wght@300;700&display=swap");
+
 /* system typefaces */
 $serif: "Noto Serif KR", Georgia, Times, serif;
 $sans-serif: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Roboto",
   "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace: D2Coding, Monaco, Consolas, "Lucida Console", monospace;
+$monospace: "Cascadia Code", D2Coding, Monaco, Consolas, "Lucida Console",
+  monospace;
 
 $right-sidebar-width-narrow: 180px;
 $right-sidebar-width: 200px;
