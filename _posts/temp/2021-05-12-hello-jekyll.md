@@ -262,3 +262,5 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 _here be dragons_
 :::
+
+<script src="https://gist.github.com/pid011/5d6ce15bfeb6962c50c0ae6462858cc8.js"></script>
