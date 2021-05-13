@@ -18,5 +18,7 @@ $right-sidebar-width-narrow: 180px;
 $right-sidebar-width: 200px;
 $right-sidebar-width-wide: 220px;
 
+$base00: #1a1a1a;
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
