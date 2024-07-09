@@ -114,7 +114,7 @@ comments:
   # utterances settings › https://utteranc.es/
   utterances:
     repo: pid011/pid011.github.io # <gh-username>/<repo>
-    issue_term: pathname # < url | pathname | title | ...>
+    issue_term: title # < url | pathname | title | ...>
     label: "post"
   # Giscus options › https://giscus.app
   giscus:
