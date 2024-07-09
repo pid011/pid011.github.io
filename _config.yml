@@ -115,6 +115,7 @@ comments:
   utterances:
     repo: pid011/pid011.github.io # <gh-username>/<repo>
     issue_term: pathname # < url | pathname | title | ...>
+    label: "post"
   # Giscus options › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
