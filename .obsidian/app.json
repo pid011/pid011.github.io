@@ -1,10 +1,11 @@
 {
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
   "userIgnoreFilters": [
     "_data/",
     "_site/",
     "_tabs/"
-  ]
+  ],
+  "useMarkdownLinks": true
 }
