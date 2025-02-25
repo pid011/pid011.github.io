@@ -1,6 +1,6 @@
 {
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
   "userIgnoreFilters": [
     "_data/",

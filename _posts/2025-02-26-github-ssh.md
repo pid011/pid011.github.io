@@ -30,7 +30,7 @@ SSH를 사용하면 서드파티 앱 권한을 따로 받을 필요가 없습니
 
 GitHub에서 ssh 키를 새로 등록한 후, GitHub에 등록한 키의 공개키와 비공개 키를 `C:\Users\{유저이름}\.ssh` 디렉토리에 저장한 뒤, git 레포의 origin 주소를 ssh 주소로 변경하면 됩니다. Fork와 같은 Git GUI에서도 SSH를 설정하면 정상적으로 pull과 fetch가 가능해집니다.
 
-![[assets/img/posts/2025-02-26-github-ssh/fork-sshkey.png]]
+![[../assets/img/posts/2025-02-26-github-ssh/fork-sshkey.png]]
 
 ### git GUI 에서 ssh 키 설정 후 여전히 연결되지 않는다면
 
