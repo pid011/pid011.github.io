@@ -7,5 +7,6 @@
     "_site/",
     "_tabs/"
   ],
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "assets/blobs"
 }
