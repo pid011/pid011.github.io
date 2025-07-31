@@ -24,7 +24,7 @@ mermaid: true
 
 이를 설정에서 변경하여 수정할 수 있습니다.
 
-적용하기 위해서는 `Settings` -> `Appearance & Behaviour` -> `Apearance` -> `Tool Windows`에서 `Widescreen tool window layout` 을 체크해줍니다.
+적용하기 위해서는 `Settings` → `Appearance & Behaviour` → `Apearance` → `Tool Windows`에서 `Widescreen tool window layout` 을 체크해줍니다.
 
 ![IDE Settings image](../assets/blobs/250731-ide-settings.png)
 
