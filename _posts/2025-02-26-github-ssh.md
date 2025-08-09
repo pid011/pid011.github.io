@@ -23,11 +23,15 @@ fatal: repository 'https://github.com/EpicGames/UnrealEngine.git/' not found
 error: could not fetch upstream
 ```
 
+## 원인
+
 이 경우 원격 레포지토리에 대한 권한을 Git 클라이언트가 가지고 있지 않아서인데, 권한만 잘 부여해주면 해결됩니다.
 
 Git에서 원격 레포지토리와 연결하는 방법은 HTTPS, SSH가 있는데, HTTPS의 경우 Git Client에서는 서드파티 OAuth 앱 권한을 부여해줘야 정상적으로 작동하지만 접근 권한이 없는 Organization에서 포크한 레포는 권한을 부여할 수 없어 제대로 작동하지 않습니다.
 
 SSH를 사용하면 서드파티 앱 권한을 따로 받을 필요가 없습니다. 유저가 레포지토리가 속한 Organization에 소속되어 있기만 하면 됩니다.
+
+## 해결 방법
 
 GitHub에서 ssh 키를 새로 등록한 후, GitHub에 등록한 키의 공개키와 비공개 키를 `C:\Users\{유저이름}\.ssh` 디렉토리에 저장한 뒤, git 레포의 origin 주소를 ssh 주소로 변경하면 됩니다. Fork와 같은 Git GUI에서도 SSH를 설정하면 정상적으로 pull과 fetch가 가능해집니다.
 
